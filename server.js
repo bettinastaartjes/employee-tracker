@@ -1,3 +1,5 @@
+//this is the main menu for departments/employees etc.
+
 // Variables and dependencies
 const inquirer = require('inquirer');
 const db = require('./db/connection');
@@ -256,7 +258,7 @@ var employee_tracker = function () {
             });
         } else if (answers.prompt === 'Log Out') {
             db.end();
-            console.log("Good-Bye!");
+            console.log("See ya!");
         }
     })
 };

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bettinastaartjes/employee-tracker/issues"
   },
-  "homepage": "https://github.com/bettinastaartjes/employee-tracker#readme"
+  "homepage": "https://github.com/bettinastaartjes/employee-tracker#readme",
+  "dependencies": {
+    "mysql2": "^3.1.1"
+  }
 }
