@@ -11,7 +11,7 @@ const db = mysql.createConnection ({
     database: 'employee_tracker_db'
 });
 
-connection.connect(function (err) {
+db.connect(function (err) {
     if (err) throw err;
 });
 
