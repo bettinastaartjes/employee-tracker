@@ -12,7 +12,7 @@ db.connect(err => {
 });
 
 var employee_tracker = function () {
-    inquirer.promot ([{
+    inquirer.prompt ([{
         //command line
         type: 'list',
         name: 'prompt',
